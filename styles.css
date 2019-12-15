@@ -127,7 +127,10 @@ a.nav.current_page {
 }
 
 .events{
-    column-count: 3;
+
+    display: grid ;
+    grid-template-columns: 1fr 1fr 1fr ;
+/*    column-count: 3;*/
     height: 400px;
     width: 980px;
     margin-left: auto;
@@ -199,6 +202,8 @@ a.nav.current_page {
 .cycle-slideshow img {
     max-width: 600px ;
 }
+
+
 
 section,footer,p,h1,h2,h2,h3,h4,h5,div {
 /*    border: 2px solid red ;*/
