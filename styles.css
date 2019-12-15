@@ -113,6 +113,10 @@ a.button:link{
     text-decoration: none;
 }
 
+a.nav.current_page {
+    color: hotpink !important ;
+}
+
 .heading{
     font-family: trade-gothic-next-condensed, 
         sans-serif;
