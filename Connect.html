@@ -1,0 +1,116 @@
+<!DOCTYPE>
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" href="https://use.typekit.net/cpx1mwi.css">
+        <style>
+            .navbar{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-area: centre;
+                font-family: trade-gothic-next-condensed, 
+                sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 30px;
+                margin-top: 20px;
+                
+            }
+
+            .grid_parent{
+                display:grid;
+                margin-top: 20px;
+                margin-left: auto;
+                margin-right: auto;
+                text-align: center;
+                grid-template-columns: 1fr 2fr 1fr;
+                grid-template-areas: 
+                    "logo_button centre collab_button"
+                    
+
+
+            }
+
+            .collab{
+                grid-area: collab_button;
+                width: 160px;
+                height: 60px;
+                background-color: hotpink;
+                font-size: 23px;
+                
+                font-family: trade-gothic-next-condensed, 
+                sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                text-align: center;
+                line-height: 27px;
+                padding-top: 10px;
+                margin-top: 15px;
+                margin-left: 100px;
+                padding-bottom: 5px;
+            
+
+font-weight: 700;
+
+font-style: normal;
+            }
+
+            .logo{
+                grid-area: logo_button;
+                text-align: left;
+                margin-left: 30px;
+            
+                
+            }
+            
+            a.nav:link{
+                color: black;
+                text-decoration: none;
+                
+            }
+            
+            a.nav:visited{
+                color: black;
+                text-decoration: none;
+                
+            }
+            
+               a.nav:hover{
+                color: hotpink;
+                text-decoration: none;
+                
+            }
+            
+            a.button:link{
+                color: white;
+                text-decoration: none;
+            }
+            
+           
+
+
+        </style>
+    </head>
+    <body>
+        <div class="grid_parent">
+            <div class="logo"><img src="mac%20logo%20(1).jpg" width= "150px"></div>
+            <div class="navbar">
+
+                <a href="Home.html" class="nav">Home</a>
+                <a href="About.html" class="nav" >About</a>
+                <a href="Events.html" class="nav">Events</a>
+                <a href="Connect.html" class="nav" style="color: hotpink;">Connect</a>
+
+
+            </div>
+            <div class="collab">
+                <a href="Collab.html" class="button">COLLABORATE <br> NOW!</a>
+            </div>
+        </div>
+        
+        
+    </body>
+</html>
+
+

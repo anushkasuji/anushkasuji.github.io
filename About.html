@@ -1,0 +1,294 @@
+<!DOCTYPE>
+<html>
+
+    <head>
+
+        <link rel="stylesheet" href="https://use.typekit.net/cpx1mwi.css">
+
+        <style>
+            body{
+                margin: 0;
+                padding: 0;
+            }
+            .navbar{
+                display:grid;
+                grid-template-columns: 1fr 1fr 1fr 1fr;
+                grid-area: centre;
+                font-family: trade-gothic-next-condensed, 
+                    sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 30px;
+                padding-top:  30px;
+
+            }
+
+            .grid_parent{
+                display:grid;
+
+                width: 100%;
+                text-align: center;
+                background-color: white;
+                position: fixed;
+                top: 0;
+                grid-template-columns: 1fr 2fr 1fr;
+                grid-template-areas: 
+                    "logo_button centre collab_button"
+
+
+
+            }
+
+            .collab{
+                grid-area: collab_button;
+                width: 160px;
+                height: 60px;
+                background-color: hotpink;
+                font-size: 23px;
+
+                font-family: trade-gothic-next-condensed, 
+                    sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                text-align: center;
+                line-height: 27px;
+                padding-top: 10px;
+                margin-top: 15px;
+                margin-left: 100px;
+                padding-bottom: 5px;
+
+
+                font-weight: 700;
+
+                font-style: normal;
+            }
+
+            .see_more{
+                width: 130px;
+                height: 25px;
+                background-color: hotpink;
+                font-size: 23px;
+
+                font-family: trade-gothic-next-condensed, 
+                    sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                text-align: center;
+                line-height: 27px;
+                padding-top: 10px;
+                margin-top: 15px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 15px;
+                color: white;
+
+
+                font-weight: 700;
+
+                font-style: normal;
+            }
+
+            .logo{
+                grid-area: logo_button;
+                text-align: left;
+                margin-left: 30px;
+
+
+            }
+
+            a.nav:link{
+                color: black;
+                text-decoration: none;
+
+            }
+
+            a.nav:visited{
+                color: black;
+                text-decoration: none;
+
+            }
+
+            a.nav:hover{
+                color: hotpink;
+                text-decoration: none;
+
+            }
+
+            a.button:link{
+                color: white;
+                text-decoration: none;
+            }
+
+            .heading{
+                font-family: trade-gothic-next-condensed, 
+                    sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 50px;
+                text-align: center;
+                margin-top: 180px;
+            }
+
+            .events{
+                column-count: 3;
+                height: 400px;
+                width: 980px;
+                margin-left: auto;
+                margin-right: auto;
+
+                text-align: center;
+
+            }
+
+            .footer{
+                height:80px;
+                background-color: black;
+                margin-bottom: 0;
+                padding-bottom: 0;
+            }
+            .footer_1{
+                color: white;
+                font-family: trade-gothic-next, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-align: left;
+                line-height: 27px;
+                font-size: 20px;
+                padding-top: 20px;
+                padding-left: 30px;
+            }
+
+            .social{
+                text-align: right;
+                padding-right: 20px;
+                margin-bottom: auto;
+                margin-top: 20px;
+                background-color: black;
+
+            }
+
+            .group{
+                padding-top: 40px;
+                margin-top: 90px;
+                margin-left: 50px;
+                display:flex;
+              
+            }
+            .group h1{
+                font-family: trade-gothic-next-condensed, 
+                    sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 50px;
+                text-align: center;
+                margin-top: 80px;
+                margin-right: 100px;
+            }
+            
+            .group p{
+                font-family: trade-gothic-next, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-align: left;
+                line-height: 27px;
+                font-size: 20px;
+                
+            }
+            
+            .group_2{
+                width: 40vw;
+                padding-left: 80px;
+            }
+            .line{
+                margin: auto;
+                display: block;
+                text-align: center;
+                width: 1100px;
+                border-bottom: solid 1px black;
+                margin-top: 40px;
+            }
+            
+            .headerdown{
+                 font-family: trade-gothic-next-condensed, 
+                    sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 50px;
+                text-align: center;
+                margin: auto;
+                margin-top: 40px;
+            }
+            
+            .paradown{
+                  font-family: trade-gothic-next, sans-serif;
+                font-weight: 400;
+                font-style: normal;
+                text-align: left;
+                line-height: 27px;
+                font-size: 20px;
+                margin: auto;
+                width: 55vw;
+                margin-top: 20px;
+                
+            }
+            
+            .bolddown{
+                font-family: trade-gothic-next-condensed, 
+                    sans-serif;
+                font-weight: 700;
+                font-style: normal;
+                font-size: 20px;
+                text-align: center;
+                margin: auto;
+                margin-top: 60px;
+                
+            }
+        
+
+        </style>
+    </head>
+    <body>
+        <div class="grid_parent">
+            <div class="logo"><img src="mac%20logo%20(1).jpg" width= "150px"></div>
+            <div class="navbar">
+
+                <a href="Home.html" class="nav" >Home</a>
+                <a href="About.html" class="nav" style="color: hotpink;" >About</a>
+                <a href="Events.html" class="nav">Events</a>
+                <a href="https://form.jotform.com/193484331777165" class="nav" >Connect</a>
+
+
+            </div>
+            <div class="collab">
+                <a href="https://form.jotform.com/193485417841163" class="button">COLLABORATE <br> NOW!</a>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="group"> <img src ="MAC%202019%20(1).jpg" width="600px" height="500px"> 
+            <div class="group_2">
+        <h1>OUR MISSION</h1>
+        <p>Acting as a student lead programming 
+            board, the MAC Board strives to provide 
+            inclusive and accessible opportunities 
+            through cultural, recreational, and 
+            educational programs for the diverse 
+            MassArt student body. They foster a positive environment for the MassArt community by encouraging creative expression and engagement of all students to enhance their overall experience.</p>
+                </div>
+            
+    </div>
+        <br>
+            <div class="line"> </div>
+        
+        <h1 class="headerdown">WHAT IS A MAC MINI?</h1>
+        <p class="paradown">MAC Mini’s helps in manage events and are suppose to create posters. They are supposed to help organise stuff and help in needing the supplies. They are supposed to come in some of the meetings and see what’s going on and if they can come onboard with something. They are the important resources for MAC. They are also paid minimum wage.  </p>
+        
+        <h1 class="bolddown">You can be a MAC Board member and a MAC mini too. Interviews starts soon.</h1>
+
+
+
+
+    </body>
+</html>
+
