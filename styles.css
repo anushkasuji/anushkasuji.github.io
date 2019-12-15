@@ -21,16 +21,15 @@ body{
 
 .grid_parent{
     display:grid;
-
     width: 100%;
     text-align: center;
     background-color: white;
     position: fixed;
+    z-index: 10000 ;
     top: 0;
     grid-template-columns: 1fr 2fr 1fr;
     grid-template-areas: 
         "logo_button centre collab_button"
-
 }
 
 .collab{
@@ -172,4 +171,30 @@ a.nav.current_page {
     width: 1100px;
     border-bottom: solid 1px black;
     margin-top: 40px;
+}
+
+/* Slideshow styles. */
+
+.cycle-pager { 
+    width: 269px ;
+    text-align: center;
+}
+.cycle-pager span { 
+    font-family: arial; 
+    font-size: 50px; 
+    width: 16px; 
+    height: 16px; 
+    display: inline-block; 
+    color: #ddd; 
+    cursor: pointer; 
+}
+.cycle-pager span.cycle-pager-active { 
+    color: #D69746;
+}
+.cycle-pager > * { 
+    cursor: pointer;
+}
+
+.cycle-slideshow img {
+    max-width: 600px ;
 }
