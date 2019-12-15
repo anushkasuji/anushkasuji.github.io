@@ -138,10 +138,12 @@ a.nav.current_page {
 }
 
 .footer{
-    height:80px;
+/*    height:80px;*/
     background-color: black;
-    margin-bottom: 0;
-    padding-bottom: 0;
+/*    margin-bottom: 0;*/
+/*    padding-bottom: 0;*/
+    display: grid ;
+    grid-template-columns: 1fr 1fr ;
 }
 .footer_1{
     color: white;
@@ -152,16 +154,15 @@ a.nav.current_page {
     line-height: 27px;
     font-size: 20px;
     padding-top: 20px;
+    padding-bottom: 20px;
     padding-left: 30px;
 }
 
 .social{
     text-align: right;
     padding-right: 20px;
-    margin-bottom: auto;
+/*    margin-bottom: auto;*/
     margin-top: 20px;
-    background-color: black;
-
 }
 
 .line{
@@ -197,4 +198,8 @@ a.nav.current_page {
 
 .cycle-slideshow img {
     max-width: 600px ;
+}
+
+section,footer,p,h1,h2,h2,h3,h4,h5,div {
+/*    border: 2px solid red ;*/
 }
