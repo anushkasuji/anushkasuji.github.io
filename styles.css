@@ -159,7 +159,11 @@ a.nav.current_page {
 }
 
 a.footerone:link {
-    color: hotpink ;
+    color: hotpink;
+}
+
+a.footertwo:link {
+    color: hotpink;
 }
 
 .footer_1{
@@ -192,7 +196,7 @@ a.footerone:link {
     padding-left: 30px;
     padding-right: 30px;
 }
-}
+
 
 .line{
     margin: auto;
