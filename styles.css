@@ -120,6 +120,11 @@ a.button:link{
     text-decoration: none;
 }
 
+a.button:visited{
+    color: white;
+    text-decoration: none;
+}
+
 a.nav.current_page {
     color: hotpink !important ;
 }
@@ -159,6 +164,10 @@ a.nav.current_page {
 }
 
 a.footerone:link {
+    color: hotpink;
+}
+
+a.footerone:visited {
     color: hotpink;
 }
 
@@ -238,7 +247,7 @@ a.footertwo:link {
 }
 .cycle-pager > * { 
     cursor: pointer;
-    text-align: center;
+    margin: auto;
     
 }
 
@@ -248,7 +257,7 @@ a.footertwo:link {
 }
 
 .cycle-slideshow {
-    margin-left: 505px;
+    margin-left: 490px;
 }
 
 .headup{
