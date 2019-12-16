@@ -248,12 +248,13 @@ a.footertwo:link {
 .cycle-pager > * { 
     cursor: pointer;
     margin: auto;
+    width: 800px;
     
 }
 
 .cycle-slideshow img {
     margin: auto;
-    max-width: 600px ;
+    
 }
 
 .cycle-slideshow {
